@@ -273,7 +273,7 @@
   .footer{
     padding: 50px 15% 10px;
     color: #777;
-    padding-left: 400px;
+    padding-left: 300px;
   }
   
   .footer h2{
@@ -383,6 +383,16 @@
     #BTN-1, #BTN-2 {
       width: 100%;
     }
+
+    #BTN-2{
+      font-size: large;
+      display: flex;
+    }
+
+    .hero-images{
+      margin-top: 100px;
+      margin-bottom: 0;
+    }
   
     .hero-images,
     .hero-images-1,
@@ -415,11 +425,13 @@
     }
   
     .footer {
-      padding-left: 50px;
+      margin-left: 0px;
     }
   
     .footer-content {
       flex-direction: row;
+      justify-content: center;
+      padding: 10px;
     }
   
     .footer .col {

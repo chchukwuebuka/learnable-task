@@ -11,16 +11,16 @@ body{
 }
 
 #logo{
-    width: Hug (111px);
-    height: Hug (30px);
+    width: 111px;
+    height: 30px;
     gap: 50px;
     padding: 40px;
 }
 
 .content {
     max-width: 1200px; 
-    margin: 0 auto;
-    margin-top: 5%; 
+    margin: 0 auto; 
+    margin-top: 20px;
 }  
 
 .content h1{
